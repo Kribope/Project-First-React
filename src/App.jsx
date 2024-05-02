@@ -11,8 +11,10 @@ function App() {
     <>
       <Functional/>
       {/* ADDING FUNCTION */}
+      <p>===================================================================</p>
+      <p>ADDING FUNCTION</p>
       <div>
-        {add(5)}
+        {add(10)}
       </div>
     </>
   )

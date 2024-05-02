@@ -18,7 +18,7 @@ function Functional() {
         <p>Birthday: {birthday}</p>
         <h3>Next age will be {age+1}</h3>
     </div>
-
+    <p>===================================================================</p>
     <div>
         <a href="https://www.facebook.com/ivandadacay15" target="_blank">
         <img src= {facebook} className="fb" alt="Facebook"/>
@@ -29,7 +29,8 @@ function Functional() {
     </div>
         <h1>Ivan Emmanuel A. Dadacay</h1>
         <h2>BSIT-2R3</h2>
-    <div className="card">
+    <p>===================================================================</p>
+    <div>
         <p>Increment Counting</p>
         <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
