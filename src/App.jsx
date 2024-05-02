@@ -1,5 +1,4 @@
 import Functional from './Functional'; {/* REFERENCING TO OTHER JSX */}
-import Homepage from './homepage';
 import './App.css'
 
 function App() {
@@ -11,8 +10,6 @@ function App() {
   return (
     <>
       <Functional/>
-      <Homepage/>
-
       {/* ADDING FUNCTION */}
       <div>
         {add(5)}
